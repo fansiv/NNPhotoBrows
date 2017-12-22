@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043E92CD1FECB6FB0027BEE4 /* moren.png in Resources */ = {isa = PBXBuildFile; fileRef = 043E92CC1FECB6FB0027BEE4 /* moren.png */; };
-		043E92D91FECE9E40027BEE4 /* NNImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E92D71FECE9E40027BEE4 /* NNImageModel.m */; };
-		043E92DA1FECE9E40027BEE4 /* NNImgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E92D81FECE9E40027BEE4 /* NNImgScrollView.m */; };
+		043E92E21FED0D420027BEE4 /* NNImgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E92E01FED0D420027BEE4 /* NNImgScrollView.m */; };
+		043E92E31FED0D420027BEE4 /* NNImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E92E11FED0D420027BEE4 /* NNImageModel.m */; };
 		044B67271FEB9E8C00349879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B67261FEB9E8C00349879 /* AppDelegate.m */; };
 		044B672A1FEB9E8C00349879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B67291FEB9E8C00349879 /* ViewController.m */; };
 		044B672D1FEB9E8C00349879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B672B1FEB9E8C00349879 /* Main.storyboard */; };
@@ -31,11 +31,11 @@
 
 /* Begin PBXFileReference section */
 		043E92CC1FECB6FB0027BEE4 /* moren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moren.png; sourceTree = "<group>"; };
-		043E92D51FECE9E40027BEE4 /* NNImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageModel.h; sourceTree = "<group>"; };
-		043E92D61FECE9E40027BEE4 /* NNImgScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImgScrollView.h; sourceTree = "<group>"; };
-		043E92D71FECE9E40027BEE4 /* NNImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageModel.m; sourceTree = "<group>"; };
-		043E92D81FECE9E40027BEE4 /* NNImgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImgScrollView.m; sourceTree = "<group>"; };
-		043E92DB1FECEA7E0027BEE4 /* NNPhotoBrows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNPhotoBrows.h; sourceTree = "<group>"; };
+		043E92DD1FED0D420027BEE4 /* NNPhotoBrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPhotoBrows.h; sourceTree = "<group>"; };
+		043E92DE1FED0D420027BEE4 /* NNImgScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImgScrollView.h; sourceTree = "<group>"; };
+		043E92DF1FED0D420027BEE4 /* NNImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageModel.h; sourceTree = "<group>"; };
+		043E92E01FED0D420027BEE4 /* NNImgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImgScrollView.m; sourceTree = "<group>"; };
+		043E92E11FED0D420027BEE4 /* NNImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageModel.m; sourceTree = "<group>"; };
 		044B67221FEB9E8C00349879 /* ImgsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044B67251FEB9E8C00349879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		044B67261FEB9E8C00349879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,17 +73,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		043E92D41FECE9E40027BEE4 /* NNPhotoBrows */ = {
+		043E92DC1FED0D420027BEE4 /* NNPhotoBrows */ = {
 			isa = PBXGroup;
 			children = (
-				043E92DB1FECEA7E0027BEE4 /* NNPhotoBrows.h */,
-				043E92D51FECE9E40027BEE4 /* NNImageModel.h */,
-				043E92D71FECE9E40027BEE4 /* NNImageModel.m */,
-				043E92D61FECE9E40027BEE4 /* NNImgScrollView.h */,
-				043E92D81FECE9E40027BEE4 /* NNImgScrollView.m */,
+				043E92DD1FED0D420027BEE4 /* NNPhotoBrows.h */,
+				043E92DE1FED0D420027BEE4 /* NNImgScrollView.h */,
+				043E92DF1FED0D420027BEE4 /* NNImageModel.h */,
+				043E92E01FED0D420027BEE4 /* NNImgScrollView.m */,
+				043E92E11FED0D420027BEE4 /* NNImageModel.m */,
 			);
 			path = NNPhotoBrows;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		044B67191FEB9E8C00349879 = {
 			isa = PBXGroup;
@@ -106,7 +106,7 @@
 		044B67241FEB9E8C00349879 /* ImgsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				043E92D41FECE9E40027BEE4 /* NNPhotoBrows */,
+				043E92DC1FED0D420027BEE4 /* NNPhotoBrows */,
 				044B674B1FEBA01200349879 /* imgs */,
 				044B67251FEB9E8C00349879 /* AppDelegate.h */,
 				044B67261FEB9E8C00349879 /* AppDelegate.m */,
@@ -294,9 +294,9 @@
 			files = (
 				044B672A1FEB9E8C00349879 /* ViewController.m in Sources */,
 				044B67351FEB9E8C00349879 /* main.m in Sources */,
+				043E92E31FED0D420027BEE4 /* NNImageModel.m in Sources */,
 				044B67271FEB9E8C00349879 /* AppDelegate.m in Sources */,
-				043E92DA1FECE9E40027BEE4 /* NNImgScrollView.m in Sources */,
-				043E92D91FECE9E40027BEE4 /* NNImageModel.m in Sources */,
+				043E92E21FED0D420027BEE4 /* NNImgScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
